@@ -1,0 +1,23 @@
+.avatar { 
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.leftmargin{
+    margin-left: 28px;
+}
+
+.clientheader{
+    color: rgb(143, 138, 138);
+}
+
+hr {
+    width: 50%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

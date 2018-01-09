@@ -1,0 +1,19 @@
+<nav 
+  class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active current">
+          <a routerLink="/clients"
+            [queryParams]="{ page: 1, order: 'newest' }">Clients</a>
+        </li>
+        <li routerLinkActive="active current">
+          <a routerLink="/matters">Matters</a></li>
+          <li routerLinkActive="active current">
+              <a routerLink="/matters">Contacts</a></li>
+          <li routerLinkActive="active current">
+              <a routerLink="/matters">Documents</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
